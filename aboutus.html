@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="college.css">
+</head>
+<body>
+    <div class="head">
+        <nav>
+            <a href=""><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()" id="hide"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showmenu()" id="show"></i> 
+            </div>
+            <div class="text-box" id="home">
+                <h1>World's Best University</h1>
+                <p>
+                    Making Website is now one of the most easiest thing in this world .you just need to learn HTML,CSS AND <br>JAVA SCRIPT and you are good to go.
+    
+                </p>
+                <a href="" class="last-btn">Visit Our Page to Know More</a>
+            
+            </div>
+           
+        </nav>
+        </div>
+<!------------------------------- FOOTER------------------------- -->
+    <div class="footer">
+        <h4>
+            About Us
+        </h4>
+        <p>
+            Lorem,  
+            perspiciatis explicabo corporis animi
+             nostrum quas eligendi, ad nulla,<br> sunt 
+             vitae expedita accusamus quibusdam 
+             officiis doloribus aspernatur nobis
+              provident aliquid!
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    <script>
+        var thatlink=document.getElementById("navlinks")
+        function showmenu()
+        {
+            thatlink.style.right="0";
+           
+        }
+        function hidemenu()
+        {
+            thatlink.style.right="-200px";
+                     
+        }
+        
+    </script>
+</body>
+</html>
